@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bootstrap.Pagination</name>
+    </assembly>
+    <members>
+        <member name="T:Bootstrap.Pagination.CommandResult">
+            <summary>
+                命令的结果模型
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.CommandResult.#ctor(System.Boolean,System.String,System.String)">
+            <summary>
+                构造命令的结果模型
+            </summary>
+            <param name="isSuccess"></param>
+            <param name="message"></param>
+            <param name="exceptionMessage"></param>
+        </member>
+        <member name="P:Bootstrap.Pagination.CommandResult.IsSuccess">
+            <summary>
+                是否执行成功
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.CommandResult.Message">
+            <summary>
+                消息
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.CommandResult.ExceptionMessage">
+            <summary>
+                异常消息
+            </summary>
+        </member>
+        <member name="T:Bootstrap.Pagination.QueryResult`1">
+            <summary>
+                查询的结果模型
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.QueryResult`1.#ctor(System.Boolean,`0,System.String,System.String)">
+            <summary>
+                构造查询的结果模型
+            </summary>
+            <param name="value"></param>
+            <param name="isSuccess"></param>
+            <param name="message"></param>
+            <param name="exceptionMessage"></param>
+        </member>
+        <member name="M:Bootstrap.Pagination.QueryResult`1.#ctor(System.Boolean,System.String,System.String)">
+            <summary>
+                构造查询的结果模型
+            </summary>
+            <param name="isSuccess"></param>
+            <param name="message"></param>
+            <param name="exceptionMessage"></param>
+        </member>
+        <member name="P:Bootstrap.Pagination.QueryResult`1.IsSuccess">
+            <summary>
+                查询是否成功
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.QueryResult`1.Message">
+            <summary>
+                消息
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.QueryResult`1.ExceptionMessage">
+            <summary>
+                异常消息
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.QueryResult`1.Value">
+            <summary>
+                查询结果的值
+            </summary>
+        </member>
+        <member name="T:Bootstrap.Pagination.RouteValueDictionaryExtension">
+            <summary>
+                RouteValueDictionary的扩展，用于自定义路由
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.RouteValueDictionaryExtension.HasController(System.Web.Routing.RouteValueDictionary,System.String)">
+            <summary>
+                是否controller
+            </summary>
+            <param name="dictionary"></param>
+            <param name="controller"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.RouteValueDictionaryExtension.HasAction(System.Web.Routing.RouteValueDictionary,System.String)">
+            <summary>
+                是否有action
+            </summary>
+            <param name="dictionary"></param>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.RouteValueDictionaryExtension.HasAction(System.Web.Routing.RouteValueDictionary,System.String,System.String)">
+            <summary>
+                是否是controller下的action
+            </summary>
+            <param name="dictionary"></param>
+            <param name="controller"></param>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.RouteValueDictionaryExtension.AddController(System.Web.Routing.RouteValueDictionary,System.String)">
+            <summary>
+                添加controller
+            </summary>
+            <param name="dictionary"></param>
+            <param name="controller"></param>
+        </member>
+        <member name="M:Bootstrap.Pagination.RouteValueDictionaryExtension.AddAction(System.Web.Routing.RouteValueDictionary,System.String)">
+            <summary>
+                添加action
+            </summary>
+            <param name="dictionary"></param>
+            <param name="controller"></param>
+        </member>
+        <member name="T:Bootstrap.Pagination.StringExtension">
+            <summary>
+                string的扩展，用于自定义路由
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.StringExtension.IsSameController(System.String,System.String)">
+            <summary>
+                是否是同一个Controller
+            </summary>
+            <param name="controller1"></param>
+            <param name="controller2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.StringExtension.Is(System.String,System.String)">
+            <summary>
+                是否不区分大小写相等
+            </summary>
+            <param name="string1"></param>
+            <param name="string2"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Bootstrap.Pagination.HttpRequestBaseExtension">
+            <summary>
+                定义了HttpRequestBase对象的扩展方法
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.HttpRequestBaseExtension.QueryGuid(System.Web.HttpRequestBase,System.String)">
+            <summary>
+                由key查询Guid
+            </summary>
+            <param name="request"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.HttpRequestBaseExtension.QueryNullableGuid(System.Web.HttpRequestBase,System.String)">
+            <summary>
+                由key查询Guid?
+            </summary>
+            <param name="request"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.HttpRequestBaseExtension.QueryString(System.Web.HttpRequest,System.String)">
+            <summary>
+                由key查询string
+            </summary>
+            <param name="request"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.HttpRequestBaseExtension.QueryString(System.Web.HttpRequestBase,System.String)">
+            <summary>
+                由key查询string
+            </summary>
+            <param name="request"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.HttpRequestBaseExtension.QueryInt32(System.Web.HttpRequest,System.String,System.Int32)">
+            <summary>
+                由key查询int，如果为空，或者无效，返回指定的默认值，或者1
+            </summary>
+            <param name="request"></param>
+            <param name="key"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.HttpRequestBaseExtension.QueryInt32(System.Web.HttpRequestBase,System.String,System.Int32)">
+            <summary>
+                由key查询int，如果为空，或者无效，返回指定的默认值，或者1
+            </summary>
+            <param name="request"></param>
+            <param name="key"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.HttpRequestBaseExtension.QueryGuidArray(System.Web.HttpRequestBase,System.String,System.Char)">
+            <summary>
+                由key查询按divider字符分隔的Guid[]
+            </summary>
+            <param name="request"></param>
+            <param name="key"></param>
+            <param name="divider"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Bootstrap.Pagination.JTokenExtension">
+            <summary>
+                JToken扩展
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.JTokenExtension.Get``1(Newtonsoft.Json.Linq.JToken,System.String)">
+            <summary>
+                取属性值
+            </summary>
+            <param name="jToken"></param>
+            <param name="propertyName"></param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.JTokenExtension.Get(Newtonsoft.Json.Linq.JToken,System.String)">
+            <summary>
+                取字符串属性值
+            </summary>
+            <param name="jToken"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.JTokenExtension.HasKey(Newtonsoft.Json.Linq.JToken,System.String)">
+            <summary>
+                是否有此Key
+            </summary>
+            <param name="jToken"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.JTokenExtension.IsNotNull(Newtonsoft.Json.Linq.JToken,System.String)">
+            <summary>
+                是否有为null
+            </summary>
+            <param name="jToken"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Bootstrap.Pagination.JsonDeserializationException">
+            <summary>
+                Json反序列化异常
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.JsonDeserializationException.#ctor(System.String,System.String)">
+            <summary>
+                构造JsonDeserializationException对象
+            </summary>
+            <param name="propertyName"></param>
+            <param name="typeName"></param>
+        </member>
+        <member name="M:Bootstrap.Pagination.JsonDeserializationException.#ctor(System.String,System.String,System.String)">
+            <summary>
+                构造JsonDeserializationException对象
+            </summary>
+            <param name="propertyName"></param>
+            <param name="typeName"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:Bootstrap.Pagination.JsonDeserializationException.#ctor(System.String,System.String,System.String,System.Exception)">
+            <summary>
+                构造JsonDeserializationException对象
+            </summary>
+            <param name="propertyName"></param>
+            <param name="typeName"></param>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="P:Bootstrap.Pagination.JsonDeserializationException.PropertyName">
+            <summary>
+                属性名
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.JsonDeserializationException.TypeName">
+            <summary>
+                转换目标类型名
+            </summary>
+        </member>
+        <member name="T:Bootstrap.Pagination.Pager">
+            <summary>
+                对应Bootstrap pager
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.Pager.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+                由总条数、当前页、每页的条数构造Pager对象
+            </summary>
+            <param name="totalItems">总条数</param>
+            <param name="page">当前页</param>
+            <param name="itemsPerPage">每页的条数</param>
+        </member>
+        <member name="M:Bootstrap.Pagination.Pager.GetSkipped(System.Int32,System.Int32)">
+            <summary>
+                当前页中，由从0开始的条的索引，应该Skip这些数目条数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pager.ItemsPerPage">
+            <summary>
+                每页的条数
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pager.TotalPages">
+            <summary>
+                总页数
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pager.Page">
+            <summary>
+                当前页,从1开始
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pager.IsFirstPage">
+            <summary>
+                是否是第1页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pager.IsLastPage">
+            <summary>
+                是否是最后1页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pager.Skipped">
+            <summary>
+                当前页中，由从0开始的条的索引，应该Skip这些数目条数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Bootstrap.Pagination.Pagination">
+            <summary>
+                对应Bootstrap pagination
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.Pagination.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+                由总条数、当前页、当前组、每组的页数、每页的条数构造Pagination对象
+            </summary>
+            <param name="totalItems">总条数</param>
+            <param name="page">当前页，从1开始</param>
+            <param name="pagesPerGroup">每组的页数</param>
+            <param name="itemsPerPage">每页的条数</param>
+        </member>
+        <member name="M:Bootstrap.Pagination.Pagination.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+                由总条数、当前页、当前组、每组的页数、每页的条数构造Pagination对象
+            </summary>
+            <param name="totalItems">总条数</param>
+            <param name="page">当前页，从1开始</param>
+            <param name="group">当前组，从1开始</param>
+            <param name="pagesPerGroup">每组的页数</param>
+            <param name="itemsPerPage">每页的条数</param>
+        </member>
+        <member name="M:Bootstrap.Pagination.Pagination.GetSkipped(System.Int32,System.Int32)">
+            <summary>
+                当前页中，由从0开始的条的索引，应该Skip这些数目条数据
+            </summary>
+            <param name="page"></param>
+            <param name="itemsPerPage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.Pagination.GetPageIndex(System.Int32)">
+            <summary>
+                由当前组中页从0开始的索引，获得实际表示的页
+            </summary>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.Pagination.GetItemIndex(System.Int32)">
+            <summary>
+                由当前页中条从0开始的索引，获得实际表示的条
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.Pagination.IsCurrentPage(System.Int32)">
+            <summary>
+                从0开始的页的索引是否是当前页
+            </summary>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.TotalPages">
+            <summary>
+                总页数
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.TotalItems">
+            <summary>
+                总条数
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.TotalGroups">
+            <summary>
+                总组数
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.ItemsPerPage">
+            <summary>
+                每页的条数
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.PagesOfLastGroup">
+            <summary>
+                最后一组的页数
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.Page">
+            <summary>
+                当前页，从1开始
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.PagesPerGroup">
+            <summary>
+                每组的页数
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.Group">
+            <summary>
+                当前组，从1开始
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.Skipped">
+            <summary>
+                当前页中，由从0开始的条的索引，应该Skip这些数目条数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.IsFirstGroup">
+            <summary>
+                是否是第一组
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.IsLastGroup">
+            <summary>
+                是否是最后一组
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.CurrentPageCount">
+            <summary>
+                当前组的页数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.CurrentPage">
+            <summary>
+                当前页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.LastGroup">
+            <summary>
+                上一组所在页
+            </summary>
+        </member>
+        <member name="P:Bootstrap.Pagination.Pagination.NextGroup">
+            <summary>
+                下一组所在页
+            </summary>
+        </member>
+        <member name="T:Bootstrap.Pagination.NewtonJsonResult">
+            <summary>
+                JsonResult的扩展，用NewtonJson来序列化
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.NewtonJsonResult.#ctor">
+            <summary>
+                构造NewtonJsonResult
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.NewtonJsonResult.#ctor(System.Object)">
+            <summary>
+                构造NewtonJsonResult
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:Bootstrap.Pagination.NewtonJsonResult.#ctor(System.Object,Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+                构造NewtonJsonResult
+            </summary>
+            <param name="obj"></param>
+            <param name="jsonSerializerSettings"></param>
+        </member>
+        <member name="P:Bootstrap.Pagination.NewtonJsonResult.JsonSerializerSettings">
+            <summary>
+                JsonConvert.SerializeObject的第二个参数
+            </summary>
+        </member>
+        <member name="T:Bootstrap.Pagination.ControllerExtension">
+            <summary>
+                Controller扩展
+            </summary>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.PartialViewToString(System.Web.Mvc.Controller,System.String)">
+            <summary>
+                部分视图转string
+            </summary>
+            <param name="controller"></param>
+            <param name="viewName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.PartialViewToString(System.Web.Mvc.Controller,System.String,System.Object)">
+            <summary>
+                部分视图转string
+            </summary>
+            <param name="controller"></param>
+            <param name="viewName"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.NewtonJson(System.Web.Mvc.ControllerBase,System.Object)">
+            <summary>
+                Controller.Json的替代
+            </summary>
+            <param name="controller"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.NewtonJson(System.Web.Mvc.ControllerBase,System.Text.Encoding,System.String,System.Web.Mvc.JsonRequestBehavior,System.Object)">
+            <summary>
+                Controller.Json的替代
+            </summary>
+            <param name="controller"></param>
+            <param name="encoding"></param>
+            <param name="contentType"></param>
+            <param name="jsonRequestBehavior"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.NewtonJson(System.Web.Mvc.ControllerBase,System.Object,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>
+                Controller.Json的替代
+            </summary>
+            <param name="controller"></param>
+            <param name="obj"></param>
+            <param name="jsonRequestBehavior"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.NewtonJson(System.Web.Mvc.ControllerBase,System.Object,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>
+                Controller.Json的替代
+            </summary>
+            <param name="controller"></param>
+            <param name="obj"></param>
+            <param name="encoding"></param>
+            <param name="jsonRequestBehavior"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.NewtonJson(System.Web.Mvc.ControllerBase,System.Object,System.String)">
+            <summary>
+                Controller.Json的替代
+            </summary>
+            <param name="controller"></param>
+            <param name="obj"></param>
+            <param name="contentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.NewtonJson(System.Web.Mvc.ControllerBase,System.Object,System.Text.Encoding)">
+            <summary>
+                Controller.Json的替代
+            </summary>
+            <param name="controller"></param>
+            <param name="obj"></param>
+            <param name="encoding"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.NewtonJson(System.Web.Mvc.ControllerBase,System.Object,System.Text.Encoding,System.String)">
+            <summary>
+                Controller.Json的替代
+            </summary>
+            <param name="controller"></param>
+            <param name="obj"></param>
+            <param name="encoding"></param>
+            <param name="contentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bootstrap.Pagination.ControllerExtension.NewtonJson(System.Web.Mvc.ControllerBase,System.Object,System.Text.Encoding,System.String,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>
+                Controller.Json的替代
+            </summary>
+            <param name="controller"></param>
+            <param name="obj"></param>
+            <param name="encoding"></param>
+            <param name="contentType"></param>
+            <param name="jsonRequestBehavior"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

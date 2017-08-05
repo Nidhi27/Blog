@@ -1,0 +1,75 @@
+﻿  <div class="container">
+        <!--<nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Blogging</a>
+                </div>
+                <ul class="nav navbar-nav" style="float:right">
+                    <li><a href="http://localhost:57649/BlogApp/Views/Admin/Index.html">Admin</a></li>
+                    <li><a href="#">Create Post</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </div>
+        </nav>-->
+        <form class="form-inline">
+            <div class="form-group">
+              
+                <input type="text" ng-model="search" class="form-control" placeholder="Search">
+            </div>
+        </form>
+
+        <div class="blogContainer">
+            <div class="mainblogview">
+                <div style="overflow:hidden;width:80%;">
+                    <div dir-paginate="posts in postData|orderBy: '-PostedOn' | filter: search|itemsPerPage:5" class="postDescContainer">
+                        <div class="postDescTitle"><h3><a href="#!/post/{{posts.Id}}">{{posts.Title}}</a></h3></div>                        
+                        <div class="postPubDate">
+                          
+                            
+                        </div>
+                        <div class="postDescCategory" ng-model="Category">
+                            <div ng-model="ApplicationUser">
+                                Posted By: <b> {{posts.UserName}}</b> in
+                                <b> {{posts.CategoryName}} </b> on <b> {{posts.PostedOn | date:'dd/MM/yyyy'}}</b>
+                            </div>
+                        </div>
+                        <div class="postDescBody" ng-model="postLimit">
+                            {{posts.Content | limitTo : postLimit}}  <a href="#!/post/{{posts.Id}}">  Read More..</a>
+                        </div>
+                    </div>
+                    <dir-pagination-controls max-size="5"
+                                             direction-links="true"
+                                             boundary-links="true">
+                    </dir-pagination-controls>
+
+                </div>
+            </div>
+            <div class="mainCatTagView">
+                <div class="postCategoryContainer">
+                    <div class="addCatCont" style="align-content:center">
+                        Categories:
+                        <div data-ng-model="Category.Id">
+                            <ul ng-repeat="cats in categoryData">
+                                <li><a ng-click="filterByCategory(cats.Id)"> {{cats.Name}}</a> </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="postCategoryContainer">
+                    <div style="align-content:center">
+                        Tags:
+                        <div data-ng-model="Tag.Id">
+                            <ul ng-repeat="tags in tagData">
+                                <li><a ng-click="filterByTag(tags.Id)"> {{tags.Name}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  

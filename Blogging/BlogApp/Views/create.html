@@ -1,0 +1,49 @@
+﻿<div class="container">
+    <div>
+        <h2>Add New Posts</h2>
+        <div>
+            <label>Title</label>
+            <input type="text" data-ng-model="Post.Title" />
+        </div>
+        <div>
+            <label>Content</label>
+            <textarea data-ng-model="Post.Content"></textarea>
+        </div>
+        <br />
+
+        <div>
+            <label>Category</label>
+            <select data-ng-model="Category.Id">
+                <option value="">Select Category</option>
+                <option ng-repeat="items in categoryData" value="{{items.Id}}" >{{items.Name}}</option>
+            </select>
+
+        </div>
+        <br/>
+
+        <!--<div>
+            <label>Tag</label>
+            <select multiple ng-model="Tag.Id">
+                <option ng-repeat="items in tagData" value="{{items.Id}}">{{items.Name}}</option>
+            </select>
+
+        <!--</div>-->
+        <div>
+            <label>Tag</label>
+            <select multiple ng-model="selectedtags" class="form-control" selected-model="selectedtags"
+                    ng-options="item.Name for item in tagData" required></select>
+        </div>
+
+        <br/>
+      
+           
+      
+
+     
+        <br/>
+        <div>
+            <button data-ng-click="save()">Save</button>
+            <button data-ng-click="clear()">Clear</button>
+        </div>
+    </div>
+</div>

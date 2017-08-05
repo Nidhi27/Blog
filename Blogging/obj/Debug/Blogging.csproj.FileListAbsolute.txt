@@ -1,0 +1,716 @@
+D:\Blogging\Blogging\bin\ApplicationInsights.config
+D:\Blogging\Blogging\bin\roslyn\csc.exe
+D:\Blogging\Blogging\bin\roslyn\csc.exe.config
+D:\Blogging\Blogging\bin\roslyn\csc.rsp
+D:\Blogging\Blogging\bin\roslyn\csi.exe
+D:\Blogging\Blogging\bin\roslyn\csi.rsp
+D:\Blogging\Blogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Blogging\Blogging\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Blogging\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Blogging\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Blogging\Blogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Blogging\Blogging\bin\roslyn\System.AppContext.dll
+D:\Blogging\Blogging\bin\roslyn\System.Collections.Immutable.dll
+D:\Blogging\Blogging\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Blogging\Blogging\bin\roslyn\System.IO.FileSystem.dll
+D:\Blogging\Blogging\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Blogging\Blogging\bin\roslyn\System.Reflection.Metadata.dll
+D:\Blogging\Blogging\bin\roslyn\vbc.exe
+D:\Blogging\Blogging\bin\roslyn\vbc.exe.config
+D:\Blogging\Blogging\bin\roslyn\vbc.rsp
+D:\Blogging\Blogging\bin\roslyn\VBCSCompiler.exe
+D:\Blogging\Blogging\bin\roslyn\VBCSCompiler.exe.config
+D:\Blogging\Blogging\bin\Blogging.dll.config
+D:\Blogging\Blogging\bin\Blogging.dll
+D:\Blogging\Blogging\bin\Blogging.pdb
+D:\Blogging\Blogging\bin\Antlr3.Runtime.dll
+D:\Blogging\Blogging\bin\EntityFramework.dll
+D:\Blogging\Blogging\bin\EntityFramework.SqlServer.dll
+D:\Blogging\Blogging\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Blogging\Blogging\bin\Microsoft.AI.DependencyCollector.dll
+D:\Blogging\Blogging\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Blogging\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Blogging\Blogging\bin\Microsoft.AI.Web.dll
+D:\Blogging\Blogging\bin\Microsoft.AI.WindowsServer.dll
+D:\Blogging\Blogging\bin\Microsoft.ApplicationInsights.dll
+D:\Blogging\Blogging\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Blogging\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Blogging\Blogging\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Blogging\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.Google.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Blogging\Blogging\bin\Microsoft.Web.Infrastructure.dll
+D:\Blogging\Blogging\bin\Newtonsoft.Json.dll
+D:\Blogging\Blogging\bin\Owin.dll
+D:\Blogging\Blogging\bin\System.Net.Http.Formatting.dll
+D:\Blogging\Blogging\bin\System.Web.Helpers.dll
+D:\Blogging\Blogging\bin\System.Web.Http.dll
+D:\Blogging\Blogging\bin\System.Web.Http.Owin.dll
+D:\Blogging\Blogging\bin\System.Web.Http.WebHost.dll
+D:\Blogging\Blogging\bin\System.Web.Mvc.dll
+D:\Blogging\Blogging\bin\System.Web.Optimization.dll
+D:\Blogging\Blogging\bin\System.Web.Razor.dll
+D:\Blogging\Blogging\bin\System.Web.WebPages.Deployment.dll
+D:\Blogging\Blogging\bin\System.Web.WebPages.dll
+D:\Blogging\Blogging\bin\System.Web.WebPages.Razor.dll
+D:\Blogging\Blogging\bin\WebGrease.dll
+D:\Blogging\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Blogging\Blogging\bin\Newtonsoft.Json.xml
+D:\Blogging\Blogging\bin\System.Net.Http.Formatting.xml
+D:\Blogging\Blogging\bin\System.Web.Helpers.xml
+D:\Blogging\Blogging\bin\System.Web.Http.xml
+D:\Blogging\Blogging\bin\System.Web.Http.WebHost.xml
+D:\Blogging\Blogging\bin\System.Web.Mvc.xml
+D:\Blogging\Blogging\bin\System.Web.Optimization.xml
+D:\Blogging\Blogging\bin\System.Web.Razor.xml
+D:\Blogging\Blogging\bin\System.Web.WebPages.xml
+D:\Blogging\Blogging\bin\System.Web.WebPages.Deployment.xml
+D:\Blogging\Blogging\bin\System.Web.WebPages.Razor.xml
+D:\Blogging\Blogging\bin\Antlr3.Runtime.pdb
+D:\Blogging\Blogging\bin\EntityFramework.xml
+D:\Blogging\Blogging\bin\EntityFramework.SqlServer.xml
+D:\Blogging\Blogging\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Blogging\Blogging\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Blogging\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.Google.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Blogging\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Blogging\Blogging\bin\System.Web.Http.Owin.xml
+D:\Blogging\Blogging\bin\Microsoft.ApplicationInsights.xml
+D:\Blogging\Blogging\bin\Microsoft.AI.DependencyCollector.xml
+D:\Blogging\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Blogging\Blogging\bin\Microsoft.AI.WindowsServer.xml
+D:\Blogging\Blogging\bin\Microsoft.AI.Web.xml
+D:\Blogging\Blogging\obj\Debug\Blogging.dll
+D:\Blogging\Blogging\obj\Debug\Blogging.pdb
+D:\Blogging\Blogging\obj\Debug\Blogging.csproj.GenerateResource.Cache
+D:\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial3.resources
+D:\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial4.resources
+D:\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial5.resources
+D:\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial6.resources
+D:\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial7.resources
+D:\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial.resources
+D:\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial1.resources
+D:\Blogging\Blogging\obj\Debug\Blogging.csprojResolveAssemblyReference.cache
+D:\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initials.resources
+D:\Blogging\Blogging\bin\Bootstrap.Pagination.dll
+D:\Blogging\Blogging\bin\Bootstrap.Pagination.pdb
+D:\Blogging\Blogging\bin\Bootstrap.Pagination.xml
+D:\Nidhi\Blogging\Blogging\bin\ApplicationInsights.config
+D:\Nidhi\Blogging\Blogging\bin\roslyn\csc.exe
+D:\Nidhi\Blogging\Blogging\bin\roslyn\csc.exe.config
+D:\Nidhi\Blogging\Blogging\bin\roslyn\csc.rsp
+D:\Nidhi\Blogging\Blogging\bin\roslyn\csi.exe
+D:\Nidhi\Blogging\Blogging\bin\roslyn\csi.rsp
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Nidhi\Blogging\Blogging\bin\roslyn\System.AppContext.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\System.Collections.Immutable.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\System.IO.FileSystem.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\System.Reflection.Metadata.dll
+D:\Nidhi\Blogging\Blogging\bin\roslyn\vbc.exe
+D:\Nidhi\Blogging\Blogging\bin\roslyn\vbc.exe.config
+D:\Nidhi\Blogging\Blogging\bin\roslyn\vbc.rsp
+D:\Nidhi\Blogging\Blogging\bin\roslyn\VBCSCompiler.exe
+D:\Nidhi\Blogging\Blogging\bin\roslyn\VBCSCompiler.exe.config
+D:\Nidhi\Blogging\Blogging\bin\Blogging.dll.config
+D:\Nidhi\Blogging\Blogging\bin\Blogging.dll
+D:\Nidhi\Blogging\Blogging\bin\Blogging.pdb
+D:\Nidhi\Blogging\Blogging\bin\Antlr3.Runtime.dll
+D:\Nidhi\Blogging\Blogging\bin\Bootstrap.Pagination.dll
+D:\Nidhi\Blogging\Blogging\bin\EntityFramework.dll
+D:\Nidhi\Blogging\Blogging\bin\EntityFramework.SqlServer.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.DependencyCollector.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.Web.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.WindowsServer.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.ApplicationInsights.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.Google.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Web.Infrastructure.dll
+D:\Nidhi\Blogging\Blogging\bin\Newtonsoft.Json.dll
+D:\Nidhi\Blogging\Blogging\bin\Owin.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Net.Http.Formatting.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Helpers.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Http.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Http.Owin.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Http.WebHost.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Mvc.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Optimization.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Razor.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.WebPages.Deployment.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.WebPages.dll
+D:\Nidhi\Blogging\Blogging\bin\System.Web.WebPages.Razor.dll
+D:\Nidhi\Blogging\Blogging\bin\WebGrease.dll
+D:\Nidhi\Blogging\Blogging\bin\Bootstrap.Pagination.pdb
+D:\Nidhi\Blogging\Blogging\bin\Bootstrap.Pagination.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Nidhi\Blogging\Blogging\bin\Newtonsoft.Json.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Net.Http.Formatting.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Helpers.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Http.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Http.WebHost.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Mvc.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Optimization.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Razor.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.WebPages.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.WebPages.Deployment.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.WebPages.Razor.xml
+D:\Nidhi\Blogging\Blogging\bin\Antlr3.Runtime.pdb
+D:\Nidhi\Blogging\Blogging\bin\EntityFramework.xml
+D:\Nidhi\Blogging\Blogging\bin\EntityFramework.SqlServer.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.Google.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Nidhi\Blogging\Blogging\bin\System.Web.Http.Owin.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.ApplicationInsights.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.DependencyCollector.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.WindowsServer.xml
+D:\Nidhi\Blogging\Blogging\bin\Microsoft.AI.Web.xml
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.csprojResolveAssemblyReference.cache
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial3.resources
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial4.resources
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial5.resources
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial6.resources
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial7.resources
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial.resources
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initial1.resources
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.Migrations.Initials.resources
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.csproj.GenerateResource.Cache
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.dll
+D:\Nidhi\Blogging\Blogging\obj\Debug\Blogging.pdb
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial3.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial4.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial5.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial6.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial7.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial1.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initials.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initials1.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial8.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial9.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.csproj.GenerateResource.Cache
+E:\BlogApp\Blogging\bin\ApplicationInsights.config
+E:\BlogApp\Blogging\bin\roslyn\csc.exe
+E:\BlogApp\Blogging\bin\roslyn\csc.exe.config
+E:\BlogApp\Blogging\bin\roslyn\csc.rsp
+E:\BlogApp\Blogging\bin\roslyn\csi.exe
+E:\BlogApp\Blogging\bin\roslyn\csi.rsp
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BlogApp\Blogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BlogApp\Blogging\bin\roslyn\System.AppContext.dll
+E:\BlogApp\Blogging\bin\roslyn\System.Collections.Immutable.dll
+E:\BlogApp\Blogging\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BlogApp\Blogging\bin\roslyn\System.IO.FileSystem.dll
+E:\BlogApp\Blogging\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BlogApp\Blogging\bin\roslyn\System.Reflection.Metadata.dll
+E:\BlogApp\Blogging\bin\roslyn\vbc.exe
+E:\BlogApp\Blogging\bin\roslyn\vbc.exe.config
+E:\BlogApp\Blogging\bin\roslyn\vbc.rsp
+E:\BlogApp\Blogging\bin\roslyn\VBCSCompiler.exe
+E:\BlogApp\Blogging\bin\roslyn\VBCSCompiler.exe.config
+E:\BlogApp\Blogging\bin\Blogging.dll.config
+E:\BlogApp\Blogging\bin\Blogging.dll
+E:\BlogApp\Blogging\bin\Blogging.pdb
+E:\BlogApp\Blogging\bin\Antlr3.Runtime.dll
+E:\BlogApp\Blogging\bin\Bootstrap.Pagination.dll
+E:\BlogApp\Blogging\bin\EntityFramework.dll
+E:\BlogApp\Blogging\bin\EntityFramework.SqlServer.dll
+E:\BlogApp\Blogging\bin\Microsoft.AI.Agent.Intercept.dll
+E:\BlogApp\Blogging\bin\Microsoft.AI.DependencyCollector.dll
+E:\BlogApp\Blogging\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\BlogApp\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\BlogApp\Blogging\bin\Microsoft.AI.Web.dll
+E:\BlogApp\Blogging\bin\Microsoft.AI.WindowsServer.dll
+E:\BlogApp\Blogging\bin\Microsoft.ApplicationInsights.dll
+E:\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\BlogApp\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.Cookies.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.Facebook.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.Google.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.OAuth.dll
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.Twitter.dll
+E:\BlogApp\Blogging\bin\Microsoft.Web.Infrastructure.dll
+E:\BlogApp\Blogging\bin\Newtonsoft.Json.dll
+E:\BlogApp\Blogging\bin\Owin.dll
+E:\BlogApp\Blogging\bin\System.Net.Http.Formatting.dll
+E:\BlogApp\Blogging\bin\System.Web.Helpers.dll
+E:\BlogApp\Blogging\bin\System.Web.Http.dll
+E:\BlogApp\Blogging\bin\System.Web.Http.Owin.dll
+E:\BlogApp\Blogging\bin\System.Web.Http.WebHost.dll
+E:\BlogApp\Blogging\bin\System.Web.Mvc.dll
+E:\BlogApp\Blogging\bin\System.Web.Optimization.dll
+E:\BlogApp\Blogging\bin\System.Web.Razor.dll
+E:\BlogApp\Blogging\bin\System.Web.WebPages.Deployment.dll
+E:\BlogApp\Blogging\bin\System.Web.WebPages.dll
+E:\BlogApp\Blogging\bin\System.Web.WebPages.Razor.dll
+E:\BlogApp\Blogging\bin\WebGrease.dll
+E:\BlogApp\Blogging\bin\Bootstrap.Pagination.pdb
+E:\BlogApp\Blogging\bin\Bootstrap.Pagination.xml
+E:\BlogApp\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BlogApp\Blogging\bin\Newtonsoft.Json.xml
+E:\BlogApp\Blogging\bin\System.Net.Http.Formatting.xml
+E:\BlogApp\Blogging\bin\System.Web.Helpers.xml
+E:\BlogApp\Blogging\bin\System.Web.Http.xml
+E:\BlogApp\Blogging\bin\System.Web.Http.WebHost.xml
+E:\BlogApp\Blogging\bin\System.Web.Mvc.xml
+E:\BlogApp\Blogging\bin\System.Web.Optimization.xml
+E:\BlogApp\Blogging\bin\System.Web.Razor.xml
+E:\BlogApp\Blogging\bin\System.Web.WebPages.xml
+E:\BlogApp\Blogging\bin\System.Web.WebPages.Deployment.xml
+E:\BlogApp\Blogging\bin\System.Web.WebPages.Razor.xml
+E:\BlogApp\Blogging\bin\Antlr3.Runtime.pdb
+E:\BlogApp\Blogging\bin\EntityFramework.xml
+E:\BlogApp\Blogging\bin\EntityFramework.SqlServer.xml
+E:\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.Facebook.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.Cookies.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.OAuth.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.Google.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.Twitter.xml
+E:\BlogApp\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\BlogApp\Blogging\bin\System.Web.Http.Owin.xml
+E:\BlogApp\Blogging\bin\Microsoft.ApplicationInsights.xml
+E:\BlogApp\Blogging\bin\Microsoft.AI.DependencyCollector.xml
+E:\BlogApp\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\BlogApp\Blogging\bin\Microsoft.AI.WindowsServer.xml
+E:\BlogApp\Blogging\bin\Microsoft.AI.Web.xml
+E:\BlogApp\Blogging\obj\Debug\Blogging.dll
+E:\BlogApp\Blogging\obj\Debug\Blogging.pdb
+E:\BlogApp\Blogging\obj\Debug\Blogging.Migrations.New.resources
+E:\BlogApp\Blogging\obj\Debug\Blogging.csprojResolveAssemblyReference.cache
+D:\Nidhi\BlogApp\Blogging\bin\ApplicationInsights.config
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\csc.exe
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\csc.exe.config
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\csc.rsp
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\csi.exe
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\csi.rsp
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\System.AppContext.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\System.Collections.Immutable.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\System.IO.FileSystem.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\System.Reflection.Metadata.dll
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\vbc.exe
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\vbc.exe.config
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\vbc.rsp
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\VBCSCompiler.exe
+D:\Nidhi\BlogApp\Blogging\bin\roslyn\VBCSCompiler.exe.config
+D:\Nidhi\BlogApp\Blogging\bin\Blogging.dll.config
+D:\Nidhi\BlogApp\Blogging\bin\Blogging.dll
+D:\Nidhi\BlogApp\Blogging\bin\Blogging.pdb
+D:\Nidhi\BlogApp\Blogging\bin\Antlr3.Runtime.dll
+D:\Nidhi\BlogApp\Blogging\bin\Bootstrap.Pagination.dll
+D:\Nidhi\BlogApp\Blogging\bin\EntityFramework.dll
+D:\Nidhi\BlogApp\Blogging\bin\EntityFramework.SqlServer.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.DependencyCollector.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.Web.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.WindowsServer.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.ApplicationInsights.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.Google.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Web.Infrastructure.dll
+D:\Nidhi\BlogApp\Blogging\bin\Newtonsoft.Json.dll
+D:\Nidhi\BlogApp\Blogging\bin\Owin.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Net.Http.Formatting.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Helpers.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Http.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Http.Owin.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Http.WebHost.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Mvc.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Optimization.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Razor.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.WebPages.Deployment.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.WebPages.dll
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.WebPages.Razor.dll
+D:\Nidhi\BlogApp\Blogging\bin\WebGrease.dll
+D:\Nidhi\BlogApp\Blogging\bin\Bootstrap.Pagination.pdb
+D:\Nidhi\BlogApp\Blogging\bin\Bootstrap.Pagination.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Nidhi\BlogApp\Blogging\bin\Newtonsoft.Json.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Net.Http.Formatting.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Helpers.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Http.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Http.WebHost.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Mvc.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Optimization.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Razor.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.WebPages.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.WebPages.Deployment.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.WebPages.Razor.xml
+D:\Nidhi\BlogApp\Blogging\bin\Antlr3.Runtime.pdb
+D:\Nidhi\BlogApp\Blogging\bin\EntityFramework.xml
+D:\Nidhi\BlogApp\Blogging\bin\EntityFramework.SqlServer.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.Google.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Nidhi\BlogApp\Blogging\bin\System.Web.Http.Owin.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.ApplicationInsights.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.DependencyCollector.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.WindowsServer.xml
+D:\Nidhi\BlogApp\Blogging\bin\Microsoft.AI.Web.xml
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.csprojResolveAssemblyReference.cache
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial3.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial4.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial5.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial6.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial7.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial1.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initials.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initials1.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial8.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial9.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.New.resources
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.csproj.GenerateResource.Cache
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.dll
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.pdb
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\ApplicationInsights.config
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\csc.exe
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\csc.exe.config
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\csc.rsp
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\csi.exe
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\csi.rsp
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\System.AppContext.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\vbc.exe
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\vbc.exe.config
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\vbc.rsp
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\VBCSCompiler.exe
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Blogging.dll.config
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Blogging.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Blogging.pdb
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Antlr3.Runtime.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Bootstrap.Pagination.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\EntityFramework.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\EntityFramework.SqlServer.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.Web.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Newtonsoft.Json.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Owin.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Net.Http.Formatting.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Helpers.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Http.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Http.Owin.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Http.WebHost.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Mvc.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Optimization.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Razor.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.WebPages.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.WebPages.Razor.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\WebGrease.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Bootstrap.Pagination.pdb
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Bootstrap.Pagination.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Newtonsoft.Json.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Net.Http.Formatting.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Helpers.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Http.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Http.WebHost.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Mvc.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Optimization.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Razor.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.WebPages.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.WebPages.Razor.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Antlr3.Runtime.pdb
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\EntityFramework.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\EntityFramework.SqlServer.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\System.Web.Http.Owin.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\bin\Microsoft.AI.Web.xml
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.csprojResolveAssemblyReference.cache
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial3.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial4.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial5.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial6.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial7.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial1.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initials.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initials1.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial8.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial9.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.New.resources
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.csproj.GenerateResource.Cache
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.dll
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.pdb
+C:\Users\nidhigoyal\Desktop\BlogApp\Blogging\obj\Debug\Blogging.Migrations.New1.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\ApplicationInsights.config
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\csc.exe
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\csc.exe.config
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\csc.rsp
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\csi.exe
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\csi.rsp
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\System.AppContext.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\vbc.exe
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\vbc.exe.config
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\vbc.rsp
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\VBCSCompiler.exe
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Blogging.dll.config
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Blogging.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Blogging.pdb
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Antlr3.Runtime.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Bootstrap.Pagination.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\EntityFramework.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\EntityFramework.SqlServer.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.Web.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Newtonsoft.Json.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Owin.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Net.Http.Formatting.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Helpers.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Http.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Http.Owin.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Http.WebHost.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Mvc.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Optimization.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Razor.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.WebPages.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.WebPages.Razor.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\WebGrease.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Bootstrap.Pagination.pdb
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Bootstrap.Pagination.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Newtonsoft.Json.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Net.Http.Formatting.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Helpers.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Http.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Http.WebHost.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Mvc.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Optimization.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Razor.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.WebPages.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.WebPages.Razor.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Antlr3.Runtime.pdb
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\EntityFramework.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\EntityFramework.SqlServer.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\System.Web.Http.Owin.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\bin\Microsoft.AI.Web.xml
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial3.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial4.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial5.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial6.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial7.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial1.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initials.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initials1.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial8.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.Initial9.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.New.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.New1.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.csproj.GenerateResource.Cache
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.dll
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.pdb
+D:\Nidhi\BlogApp\Blogging\obj\Debug\Blogging.Migrations.New1.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.Migrations.New2.resources
+C:\Users\nidhigoyal\Documents\Visual Studio 2017\Projects\BlogApp\Blogging\obj\Debug\Blogging.csprojResolveAssemblyReference.cache

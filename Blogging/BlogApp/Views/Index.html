@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../../Scripts/angular.js"></script>
+    <script src="../../Scripts/jquery-1.10.2.js"></script>
+    <script src="../../Scripts/angular-route.js"></script>
+    <link href="../../Content/CustomStyle.css" rel="stylesheet" />
+    <link href="../../Content/SideBar.css" rel="stylesheet" />
+
+    <script src="../../Scripts/dirPagination.js"></script>
+
+    <link href="../../Content/Site.css" rel="stylesheet" />
+
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../../Scripts/bootstrap.js"></script>
+    <script src="../Scripts/Post.js"></script>
+    <script src="../Scripts/Tag.js"></script>
+    <script src="../Scripts/Category.js"></script>
+</head>
+<body ng-app="PostModule">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Blogging</a>
+                </div>
+                <ul class="nav navbar-nav" style="float:right">
+                    <li><a href="http://localhost:57649/BlogApp/Views/Admin/Index.html">Admin</a></li>
+                    <li><a href="http://localhost:57649/BlogApp/Views/CreatePost1.html">Create Post</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Search</label>
+                <input type="text" ng-model="search" class="form-control" placeholder="Search">
+            </div>
+        </form>
+
+        <div ng-controller="PostCtrl" class="blogContainer">
+            <div class="mainblogview">
+                <div style="overflow:hidden;width:80%;">
+                    <div dir-paginate="posts in postData|itemsPerPage:5 | filter: search" class="postDescContainer">
+                        <div class="postDescTitle"><h3>{{posts.Title}}</h3></div>
+                        <div class="postPubDate">
+                            <label>Posted On :</label> {{posts.PostedOn | date:'dd/MM/yyyy'}}
+                        </div>
+                        <div class="postDescCategory" ng-model="Category">
+                            <label>Category:&nbsp;</label> {{posts.Category.Name}}
+                        </div>
+                        <div class="postDescBody" ng-model="postLimit">
+                            {{posts.Content | limitTo : postLimit}}<a href="#">Read More..</a>
+                        </div>
+                    </div>
+                    <dir-pagination-controls max-size="5"
+                                             direction-links="true"
+                                             boundary-links="true">
+                    </dir-pagination-controls>
+
+                </div>
+            </div>
+            <div class="mainCatTagView">
+                <div class="postCategoryContainer">
+                    <div class="addCatCont" style="align-content:center">
+                        Categories:
+                        <div data-ng-model="Category.Id">
+                            <ul ng-repeat="cats in categoryData">
+                                <li> {{cats.Name}} </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="postCategoryContainer">
+                    <div style="align-content:center">
+                        Tags:
+                        <div data-ng-model="Tag.Id">
+                            <ul ng-repeat="tags in tagData">
+                                <li>{{tags.Name}}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+</body>
+</html>

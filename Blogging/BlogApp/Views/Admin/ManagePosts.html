@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../../../Scripts/angular.js"></script>
+    <script src="../../../Scripts/jquery-1.10.2.js"></script>
+    <script src="../../../Scripts/angular-route.js"></script>
+    <link href="../../../Content/CustomStyle.css" rel="stylesheet" />
+    <link href="../../../Content/SideBar.css" rel="stylesheet" />
+    <link href="../../../Content/Site.css" rel="stylesheet" />
+    <link href="../../../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../../../Scripts/bootstrap.js"></script>
+    <script src="../../Scripts/Post.js"></script>
+    <script src="../../Scripts/Category.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Blogging</a>
+            </div>
+            <ul class="nav navbar-nav" style="float:right">
+                <li class="active"><a href="#">Admin</a></li>
+                <li><a href="http://localhost:57649/BlogApp/Views/CreatePost1.html">Create Post</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="sidebar-nav">
+                    <div class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <span class="visible-xs navbar-brand">Sidebar menu</span>
+                        </div>
+                        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="http://localhost:57649/BlogApp/Views/Admin/Index.html">Manage Categories</a></li>
+                                <li><a href="http://localhost:57649/BlogApp/Views/Admin/ManageTags.html">Manage Tags</a></li>
+                                <li class="active"><a href="#">Manage Posts</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+            <div ng-app="PostModule" id="body">
+                <div ng-controller="PostCtrl">
+                    <h2>Manage Posts</h2>
+
+
+
+                    <table ng-cloak>
+                        <thead>
+                            <tr>
+                                <th style="display: none;">ID</th>
+                                <th>Title</th>
+
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr ng-repeat="items in postData">
+                                <td hidden="hidden">{{items.Id}}</td>
+                                <td>{{items.Title}}</td>
+
+                                <td>
+                                    <button ng-model="$scope.Post"
+                                            ng-click="edit(postData[$index])">
+                                        Edit
+                                    </button>
+                                    <button ng-click="delete($index)">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                    <br />
+                    <!--<div style="border-top: solid 2px #282828; width: 430px; height: 10px"> </div>-->
+
+                    <div ng-show="Post.Id != '' " style="float:right">
+                        <div>
+                            <h2>Update Post</h2>
+                        </div>
+                        <div hidden="hidden">
+                            <label for="id">Id</label>
+                            <input type="text" data-ng-model="Post.Id" />
+                        </div>
+                        <div>
+                            <label for="name">Title</label>
+                            <input type="text" data-ng-model="Post.Title" />
+                        </div>
+                        <div>
+                            <label for="name">Content</label>
+                            <textarea data-ng-model="Post.Content"></textarea>
+                        </div>
+                        <div>
+                            <label for="departmentName">Category</label>
+                            <select data-ng-model="Category.Id">
+                                <option ng-repeat="items in categoryData" value="{{items.Id}}">{{items.Name}}</option>
+                            </select>
+                        </div>
+                        <br />
+                        <div>
+                            <button data-ng-click="update()">Update</button>
+                            <button data-ng-click="cancel()">Cancel</button>
+                        </div>
+                        <br/>
+
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

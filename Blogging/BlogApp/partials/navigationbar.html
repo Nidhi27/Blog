@@ -1,0 +1,18 @@
+﻿<nav class="navbar navbar-inverse navbar-fixed-top">
+
+  
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#/">Blogging</a>
+        </div>
+        <ul class="nav navbar-nav" style="float:right">
+            <li ng-show="authentication.isAuth"><a href="">{{authentication.userName}}</a></li>
+            <li ng-show="authentication.isAuth && authentication.isAdmin"><a href="#!/manageCategory">Admin</a></li>
+            <li ng-show="authentication.isAuth"><a href="#!/create">Create Post</a></li>
+            <li ng-show="authentication.isAuth"><a href="" data-ng-click="logOut()">Log Out</a></li>
+            <li ng-hide="authentication.isAuth"><a href="#!/login">Login</a></li>
+            <li ng-hide="authentication.isAuth"><a href="#!/registration">Register</a></li>
+        </ul>
+   
+</div>
+</nav>

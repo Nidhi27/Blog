@@ -1,0 +1,7 @@
+﻿
+
+<div ng-repeat="posts in postData">
+    <h2>{{posts.Title}}</h2>
+    <p>By: {{posts.UserName}} in {{posts.CategoryName}} on {{posts.PostedOn | date:'dd/MM/yyyy'}}</p>
+    <p>{{posts.Content}}</p>
+</div>

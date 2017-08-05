@@ -1,0 +1,61 @@
+﻿[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+body {
+    margin: 20px;
+    font-family: "Arial", "Helventica", sans-serif;
+}
+
+label {
+    width: 80px;
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: .4em 1.1em .4em;
+    color: #fef4e9;
+    border: solid 1px #006fb9;
+    background: #1276bb;
+}
+
+    button:hover {
+        text-decoration: none;
+        background: #282828;
+        border: solid 1px #000;
+    }
+
+table {
+    padding-top: 1em;
+}
+
+thead, tfoot {
+    font-weight: 600;
+}
+
+th, td {
+    padding: .1em .5em;
+    text-align: left;
+}
+
+    td li, td ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    td li {
+        display: inline;
+    }
+
+        td li::after {
+            content: ',';
+        }
+
+        td li:last-child::after {
+            content: '';
+        }

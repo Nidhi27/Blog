@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../../scripts/angular.js"></script>
+    <script src="../../scripts/jquery-1.10.2.js"></script>
+    <script src="../../scripts/angular-route.js"></script>
+    <link href="../../content/customstyle.css" rel="stylesheet" />
+    <link href="../../content/sidebar.css" rel="stylesheet" />
+    <link href="../../content/site.css" rel="stylesheet" />
+    <link href="../../content/bootstrap.css" rel="stylesheet" />
+    <script src="../../scripts/bootstrap.js"></script>
+    <script src="../../scripts/isteven-multi-select.js"></script>
+    <script src="../../scripts/dirpagination.js"></script>
+
+    <script src="../../scripts/angularjs-dropdown-multiselect.min.js"></script>
+    <script src="../../scripts/angularjs-dropdown-multiselect.js"></script>
+    <script src="../../scripts/lodash.core.js"></script>
+
+ 
+    <script src="../scripts/Post.js"></script>
+
+    <script src="../scripts/tag.js"></script>
+    <script src="../scripts/category.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://localhost:57649/BlogApp/Views/Index.html">Blogging</a>
+            </div>
+            <ul class="nav navbar-nav" style="float:right">
+                <li><a href="http://localhost:57649/BlogApp/Views/Admin/Index.html">Admin</a></li>
+                <li class="active"><a href="#">Create Post</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div ng-app="PostModule" ng-controller="PostCtrl" class="container">
+        <div>
+            <h2>Add New Posts</h2>
+            <div>
+                <label>Title</label>
+                <input type="text" data-ng-model="Post.Title"/>
+            </div>
+            <div>
+                <label>Content</label>
+                <textarea data-ng-model="Post.Content"></textarea>
+            </div>
+            <br />
+
+            <div>
+                <label>Category</label>
+                <select data-ng-model="Category.Id">
+                    <option ng-repeat="items in categoryData" value="{{items.Id}}">{{items.Name}}</option>
+                </select>
+
+            </div>
+            <br/>
+           
+            <div>
+                <label>Tag</label>
+                <select multiple ng-model="Tag.Id">
+                    <option ng-repeat="items in tagData" value="{{items.Id}}">{{items.Name}}</option>
+                </select>
+
+            </div>
+         
+            <br />
+            <div>
+                <button data-ng-click="save()">Save</button>
+                <button data-ng-click="clear()">Clear</button>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
