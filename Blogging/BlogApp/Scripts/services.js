@@ -115,7 +115,8 @@
 
                 deferred.resolve(response);
                 }).then(function (err) {
-                _logOut();
+                    _logOut();
+
                 deferred.reject(err);
             });
 

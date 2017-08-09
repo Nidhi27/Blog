@@ -83,7 +83,6 @@ namespace Blogging.Repository
                     Id = x.Id,
                     Title = x.Title,
                     CategoryId = x.CategoryId,
-
                     UserName = db.Users.Where(y => y.Id == x.UserId)
                     .Select(y => y.UserName)
                     .FirstOrDefault(),
@@ -151,7 +150,7 @@ namespace Blogging.Repository
             {
                 throw new ArgumentNullException("post");
             }
-            
+            db = new ApplicationDbContext();
             // TO DO : Code to save record into database
             Post p = new Post();
            
@@ -160,23 +159,17 @@ namespace Blogging.Repository
             p.PostedOn = post.PostedOn;
             p.UserId = post.UserId;
             p.CategoryId = post.CategoryId;
-            //p.Tags = post.Tags;
-            //p.TagIds = post.TagIds;
-
+            
             foreach (var assignedtag in post.Tags)
             {
-                db = new ApplicationDbContext();
                 db.Entry(assignedtag).State = EntityState.Unchanged;
-                db.SaveChanges();
             }
 
           
             p.Tags = post.Tags;
             db.Posts.Add(p);
-           
             db.SaveChanges();
-            //db.Posts.Add(p);
-            //db.SaveChanges();
+            
 
           
             //for (int i = 0; i < post.TagIds.Count; i++)
@@ -199,122 +192,38 @@ namespace Blogging.Repository
             {
                 throw new ArgumentNullException("post");
             }
-            var postToUpdate = post.Tags;
 
-           
+            var postToUpdate = post.Tags;
+            db = new ApplicationDbContext();
             Post posts = db.Posts.SingleOrDefault(i => i.Id == post.Id);
             posts.Title = post.Title;
             posts.Content = post.Content;
             posts.PostedOn = post.PostedOn;
             posts.CategoryId = post.CategoryId;
-           
+            foreach (var assignedtag in post.Tags)
+            {
+              db.Entry(assignedtag).State = EntityState.Unchanged;
+            }
             post.Tags = new List<Tag>();
-            //ApplicationDbContext _db = new ApplicationDbContext();
-            //Post posted = db.Posts.SingleOrDefault(i => i.Id == Id);
-            //_db.Entry(posted).Collection(t => t.Tags).Load();
             var currentTags = post.Tags.ToList();
-
             posts.Tags.Clear();
-
             foreach (var tag in postToUpdate)
             {
                 var currentTag = currentTags.SingleOrDefault(t => t.Id == tag.Id);
                 if (tag != null)
-                { 
-               
-                    posts.Tags.Add(tag);
-                    db.Entry(tag).State = EntityState.Unchanged;
-
-                }
-
-                else
                 {
-                    //db.Tags.Attach(tag);
-                    posts.Tags.Add(currentTag);
+                    posts.Tags.Add(tag);
                 }
-
-               
-
+                //else
+                //{
+                //    posts.Tags.Add(tag);
+                //}
             }
-            //db.Entry()
-            //  postToUpdate.Tags = post.Tags;
-            //  var selectedTagsHS = new HashSet<string>(Tags);
-            //var postTags = new HashSet<int>(postToUpdate.Tags.Select(t => t.Id));
-            //foreach (var tag in db.Tags)
-            //{
-            //    postToUpdate.Tags = post.Tags;
-            //    if (postToUpdate.Tags.Contains(tag))
-            //    {
-            //        if (!postToUpdate.Tags.Contains(tag))
-            //        {
-            //            postToUpdate.Tags.Add(tag);
-            //        }
-            //    }
-
-            //    else
-            //    {
-            //        if (postToUpdate.Tags.Contains(tag))
-            //        {
-            //            postToUpdate.Tags.Remove(tag);
-            //        }
-            //    }
-
-
-            //}
-            db.Entry(posts).State = EntityState.Modified;
             db.SaveChanges();
-
             return true;
 
         }
 
-        public void PopulateAssignedPostData(Post post)
-        {
-            var allTag = db.Tags;
-            var postTags = new HashSet<int>(post.Tags.Select(t => t.Id));
-            var viewModel = new List<AssignedTagData>();
-            foreach (var tag in allTag)
-            {
-                viewModel.Add(new AssignedTagData
-                {
-                    Id = tag.Id,
-                    Name = tag.Name,
-                    Assigned = postTags.Contains(tag.Id)
-                });
-            }
-
-
-        }
-
-        //public void UpdatePostTags(Post postToUpdate)
-        //{
-        //    if (postToUpdate.Tags == null)
-        //    {
-        //        postToUpdate.Tags = new List<Tag>();
-        //        return;
-        //    }
-
-        //    var selectedTagsHS = new HashSet<IList>(postToUpdate.Tags);
-        //    var postTags = new HashSet<int>(postToUpdate.Tags.Select(t => t.Id));
-        //    foreach (var tag in db.Tags)
-        //    {
-        //        if (selectedTagsHS.Contains(tag.Id.ToString()))
-        //        {
-        //            if (!postTags.Contains(tag.Id))
-        //            {
-        //                postToUpdate.Tags.Add(tag);
-        //            }
-        //        }
-
-        //        else
-        //        {
-        //            if (postTags.Contains(tag.Id))
-        //            {
-        //                postToUpdate.Tags.Remove(tag);
-        //            }
-        //        }
-        //    }
-        //}
 
         public bool Delete(int id)
         {

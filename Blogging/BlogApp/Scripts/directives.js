@@ -10,10 +10,7 @@
 
                 $scope.authenticated = authService.isAuth;
 
-                //$scope.isAuthenticated = function () {
-                //    authService.isAuth();
-                //}
-
+               
                 $scope.authentication = authService.authentication;
                 //$scope.isUserAuthenticated = function () {
                 //    authService.isUserAuthenticated();
@@ -22,7 +19,6 @@
                 $scope.logOut = function () {
                     authService.logOut();
                     $window.location.href = "Index1.html";
-
                 };
             }],
 

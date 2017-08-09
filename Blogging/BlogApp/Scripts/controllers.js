@@ -75,9 +75,7 @@
             alert('Error Occured in category!!!'); // Failed
         });
 
-       
-     
-
+      
         TagService.GetAllRecords().then(function (d) {
             $scope.tagData = d.data;
           

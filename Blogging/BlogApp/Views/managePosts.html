@@ -18,7 +18,7 @@
                             <li><a href="#!/manageTag">Manage Tags</a></li>
                             <li class="active"><a href="#">Manage Posts</a></li>
                         </ul>
-                    </div><!--/.nav-collapse -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -26,12 +26,11 @@
             <div>
                 <h2>Manage Posts</h2>
 
-
-
                 <table ng-cloak>
                     <thead>
                         <tr>
                             <th style="display: none;">ID</th>
+                         
                             <th>Title</th>
 
                             <th>Actions</th>
@@ -41,8 +40,8 @@
 
                         <tr ng-repeat="items in postData">
                             <td hidden="hidden">{{items.Id}}</td>
+                           
                             <td>{{items.Title}}</td>
-
                             <td>
                                 <button ng-model="$scope.Post"
                                         ng-click="edit(postData[$index])">
@@ -73,12 +72,8 @@
                         <label for="name">Content</label>
                         <textarea data-ng-model="Post.Content"></textarea>
                     </div>
-                    <!--<div>
-                        <label for="name">Category</label>
-                        <input type="text" data-ng-model="Post.CategoryName"/>
-                    </div>-->
+               
                     <br/>
-
                     <div>
                         <label for="name">Category</label>
                         <select ng-model="Post.CategoryId" ng-options="item.Id as item.Name for item in categoryData" required>
@@ -86,7 +81,6 @@
                         </select>
                     </div>
 
-               
                     <div>
                         <label>Tag</label>
                         
@@ -111,11 +105,10 @@
                   
                     <div>
 
-                        
                         <button data-ng-click="update()">Update</button>
                         <button data-ng-click="cancel()">Cancel</button>
                     </div>
-                    <br />
+                    <br/>
 
                 </div>
 
